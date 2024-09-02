@@ -1,0 +1,206 @@
+#monkey{
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+}
+@keyframes moveUp {
+    0% {transform: translateY(0px)}
+    100% {transform: translateY(-108px)}
+}
+@keyframes moveDown {
+    0% {transform: translateY(-108px)}
+    100% {transform: translateY(0px)}
+}
+.body{
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.belly{
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: wheat;
+    left: 10px;
+    top: 10px;
+}
+.arms{
+    position: relative;
+    left: 26px;
+    top: 20px;
+}
+.left-arm{
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: brown;
+    left: -40px;
+}
+.fingers{
+    position: relative;
+    top: 0px;
+}
+.finger{
+    position: absolute;
+    width: 6px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: wheat;
+}
+.left-arm .finger1{
+
+}
+.finger2{
+    left: 5px;
+}
+.finger3{
+    left: 10px;
+}
+.left-arm .finger4{
+    left: 18px;
+    height: 6px;
+}
+
+.right-arm{
+    position: relative;
+    width: 25px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: brown;
+    left: 45px;
+}
+.right-arm .fingers{
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+.right-arm .finger1{
+
+}
+.right-arm .finger4{
+    left: -7px;
+    height: 6px;
+}
+
+
+.head{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 50%;
+    top: -70px;
+    left: -10px;
+}
+.ears{
+    transform: translateY(-10px);
+    position: relative;
+}
+.ear-left, .ear-right{
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: brown;
+    top: 25px;
+}
+.ear-left{
+    left: -15px;
+}
+.ear-right{
+    left: 85px;
+}
+.ear-left-inner, .ear-right-inner{
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background-color: wheat;
+    border-radius: 50%;
+    left: 5px;
+    top: 10px;
+}
+.face{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.eyes{
+    position: relative;
+    left: 35px;
+    top: 20px;
+}
+.left-eye-mark, .right-eye-mark{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+.left-eye-mark{
+    left: -20px;
+}
+.right-eye-mark{
+    left: 20px;
+}
+.left-eye, .right-eye{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    left: 10px;
+    top: 10px;
+}
+.nose-mouth-mark{
+    position: relative;
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: wheat;
+    left: 15px;
+    top: 40px;
+}
+.nose{
+    position: relative;
+    left: 32px;
+    top: 10px;
+}
+.nose-left, .nose-right{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+}
+.nose-left{
+    left: -5px;
+}
+.nose-right{
+    left: 5px;
+}
+.mouth{
+    position: relative;
+    width: 50px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    left: 10px;
+    top: 20px;
+}
+.mouth1{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: wheat;
+    top: -4px;
+    left: -5px;
+}
